@@ -1,2 +1,2 @@
 # Sentiment-Analysis
-Sentiment analysis of tweets to use for investment decision making
+Sentiment analysis of tweets as means for investment decision making
