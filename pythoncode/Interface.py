@@ -1,7 +1,7 @@
 #This notebook is the interface for the sentiment around a list of companies based on tweets
 #The sentiment prection could be used for different purposes, including short term investment in stocks.
-#List of companies of interest for sentiment prediction
 
+#List of companies of interest for sentiment prediction
 company_list = ['TSLA', 'AAPL', 'META']
 
 #Tweets are taken using twitter API with unpaid developer account
@@ -10,8 +10,8 @@ company_list = ['TSLA', 'AAPL', 'META']
 #Therefore, the scraping part is taken out from automation process.
 #Automated scraping can be performed with comment below
 #%run scraping.ipynb
-#Applying sentiment analysis model saved in 'apply_model_stock.ipynb'trained on previously labled tweets
 
+#Applying sentiment analysis model saved in 'apply_model_stock.ipynb'trained on previously labled tweets
 sentiment = []
 for i in range(len(company_list)):
     FILE_NAME = company_list[i]+'.csv'
@@ -19,6 +19,5 @@ for i in range(len(company_list)):
     sentiment.append("{:.2f}".format(current_sentiment))
 
 #showing the ratio of positive tweets to the total number of tweets for each company
-
 print(sentiment)
 
