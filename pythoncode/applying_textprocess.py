@@ -1,4 +1,3 @@
-
 #This notebook is used for reading data and applying the pre-process on tweet data
 #The pre-process is the first step to format the data for proper use of Natural language toolkit
 
