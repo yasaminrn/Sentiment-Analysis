@@ -31,7 +31,7 @@ Sentiment analysis model is performed in notebook stock_sentiment_model.
 Different classification models are trained and tested. Among the models the logistic regression with 77% accuracy is saved for use on new data for sentiment analysis.
 The word vectorizer is also saved to be implemented on new as the step needed prior to implementation of the model.
 
-![alt text](https://github.com/yasaminrn/Sentiment-Analysis/upload/main/data/LR_CF.jpg)
+![alt text](https://github.com/yasaminrn/Sentiment-Analysis/upload/main/data/LR_CF.jpg?raw=true)
 
 # Scraping tweets
 Tweets around different companies are scraped using tweepy library and tweeter API for developers.
