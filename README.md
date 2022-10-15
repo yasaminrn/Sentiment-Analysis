@@ -32,6 +32,7 @@ Different classification models are trained and tested. Among the models the log
 The word vectorizer is also saved to be implemented on new as the step needed prior to implementation of the model.
 
 ![alt text](https://github.com/yasaminrn/Sentiment-Analysis/upload/main/data/LR_CF.jpg?raw=true)
+<img src="https://github.com/yasaminrn/Sentiment-Analysis/upload/main/data/LR_CF.jpg">
 
 # Scraping tweets
 Tweets around different companies are scraped using tweepy library and tweeter API for developers.
