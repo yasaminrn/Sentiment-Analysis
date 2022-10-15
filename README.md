@@ -39,3 +39,6 @@ The saved tweet data have different columns extracted for potential future use, 
 
 # Applying the model to new tweet texts
 The model is applied to new data in notebook apply_model_stock and interface notebooks.
+This gives an output of ratio of positive tweets to total number of tweets on each topic.
+Results for tweets extracted on 2022-10-14 are
+TSLA 0.69, AAPL 0.58, and META 0.64 positive to total sentiment ratio.
