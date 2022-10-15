@@ -1,12 +1,9 @@
 #This notebook is used for scraping tweet for companies of interest using twitter API
 
 #importing libraries
-
 import pandas as pd
-
 import tweepy
 from tweepy import OAuthHandler
-
 import time
 
 get_ipython().run_line_magic('run', 'key.ipynb')
@@ -19,22 +16,16 @@ def auth():
     except:
         print("An error occurred during the authentication")
     return api
-
 api = auth()
-
 print(api)
 
 #text_query = stock_list
 #this command is provided by a list for general use 
 #as the tweeter API does not allow multiple queries in a short time period, they are run one by one
 text_query = ['TSLA', 'AAPL', 'META']
-
 len(text_query)
-
 for j in range(0,len(text_query)):
-
     df_query_based_tweets = pd.DataFrame()
-
     try:
         # Creation of query method using appropriate parameters
         count = 1000
