@@ -17,6 +17,7 @@ for i in range(len(company_list)):
     FILE_NAME = company_list[i]+'.csv'
     get_ipython().run_line_magic('run', 'apply_model_stock.ipynb')
     sentiment.append("{:.2f}".format(current_sentiment))
+
 #showing the ratio of positive tweets to the total number of tweets for each company
 
 print(sentiment)
