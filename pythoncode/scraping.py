@@ -1,45 +1,15 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 #This notebook is used for scraping tweet for companies of interest using twitter API
-
-
-# In[2]:
-
 
 #importing libraries
 
-
-# In[3]:
-
-
 import pandas as pd
-
-
-# In[4]:
-
 
 import tweepy
 from tweepy import OAuthHandler
 
-
-# In[5]:
-
-
 import time
 
-
-# In[6]:
-
-
 get_ipython().run_line_magic('run', 'key.ipynb')
-
-
-# In[7]:
-
 
 def auth():
     try:
@@ -50,36 +20,16 @@ def auth():
         print("An error occurred during the authentication")
     return api
 
-
-# In[8]:
-
-
 api = auth()
 
-
-# In[9]:
-
-
 print(api)
-
-
-# In[10]:
-
 
 #text_query = stock_list
 #this command is provided by a list for general use 
 #as the tweeter API does not allow multiple queries in a short time period, they are run one by one
 text_query = ['TSLA', 'AAPL', 'META']
 
-
-# In[11]:
-
-
 len(text_query)
-
-
-# In[12]:
-
 
 for j in range(0,len(text_query)):
 
