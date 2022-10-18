@@ -36,7 +36,7 @@ The confusuin matrix of the tested data is shown in figure below. The model will
 <img src="./data/LR_CF.jpg">
 
 
-# Scraping tweets
+# Scraping the tweets
 Tweets around different companies are scraped using tweepy library and tweeter API for developers.
 The saved tweet data have different columns extracted for potential future use, but only the text column is used in current sentiment analysis.
 
