@@ -30,6 +30,7 @@ Thes text process commands are applied to both training data and the new data fo
 Sentiment analysis model is performed in notebook stock_sentiment_model.
 Different classification models are trained and tested. Among the models the logistic regression with 77% accuracy is saved for use on new data for sentiment analysis.
 The word vectorizer is also saved to be implemented on new as the step needed prior to implementation of the model.
+The confusuin matrix of the tested data is shown in figure below. The model will be used for prediction of the sentiment on some popular tech stocks in the next step.
 
 
 <img src="./data/LR_CF.jpg">
@@ -42,5 +43,5 @@ The saved tweet data have different columns extracted for potential future use, 
 # Applying the model to new tweet texts
 The model is applied to new data in notebook apply_model_stock and interface notebooks.
 This gives an output of ratio of positive tweets to total number of tweets on each topic.
-Results for tweets extracted on 2022-10-14 are
-TSLA 0.69, AAPL 0.58, and META 0.64 positive to total sentiment ratio.
+Results of the sentiment analysis for tweets extracted on 2022-10-14 are
+TSLA (stock of Tesla) 0.69, AAPL (Stock of apple) 0.58, and META (stock of Meta) 0.64 positive to total sentiment ratio.
