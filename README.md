@@ -26,8 +26,8 @@ text_process which includes the definition of functions needed for text processi
 applying_textprocess which includes application of the text_process commands. 
 Thes text process commands are applied to both training data and the new data for sentiment analysis.
 
-# Sentiment analysis model
-Sentiment analysis model is performed in notebook stock_sentiment_model.
+# Sentiment analysis model building and model evaluation
+Sentiment analysis model is performed in notebook stock_sentiment_model_evaluation.
 Different classification models are trained and tested. Among the models the logistic regression with 77% accuracy is saved for use on new data for sentiment analysis.
 The word vectorizer is also saved to be implemented on new as the step needed prior to implementation of the model.
 The confusuin matrix of the tested data is shown in figure below. The model will be used for prediction of the sentiment on some popular tech stocks in the next step.
