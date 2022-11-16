@@ -23,7 +23,7 @@ The dataset has multiple columns, only the text and labels (called target) are u
 # Pre-processing of text data
 In order to use the data for natural language processing toolkit (NLTK), the necessity text processing is performed in two notebooks:
 text_process which includes the definition of functions needed for text processing
-applying_textprocess which includes application of the text_process commands. 
+and applying_textprocess which includes application of the text_process commands. 
 Thes text process commands are applied to both training data and the new data for sentiment analysis.
 
 # Sentiment analysis model building and model evaluation
