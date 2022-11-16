@@ -1,6 +1,6 @@
 # Sentiment-Analysis
 This project is intended to perform sentiment analysis of tweets.
-The results will give an understanding of current perspective around companies and is considered to be means for short-term investment decision making.
+The results will give an understanding of current perspective around companies and is intended to be used as means for short-term investment decision making.
 
 # Training data
 The training data is composed of processed data from two datasets of labeled tweets.
