@@ -4,7 +4,7 @@ The results will give an understanding of current perspective around companies a
 
 # Training data
 The training data is composed of processed data from two datasets of labeled tweets.
-The first dataset is tweets related to stocks, from Kaggle dataset below:
+The first dataset is tweets related to stocks, from Kaggle dataset:
 https://doi.org/10.34740/KAGGLE/DSV/1217821
 Total count: 5,791
 Negative count: 2,106
